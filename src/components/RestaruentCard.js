@@ -3,7 +3,7 @@ import { CDN_LINKS } from "../utils/constants.js";
   const RestaruentCard = (props) => {
     const {resData} = props;
 
-    const {cloudinaryImageId,name,cuisines,costForTwoString,deliveryTime,avgRating} = resData?.data;
+    const {cloudinaryImageId,name,cuisines,costForTwoString,deliveryTime,avgRating} = resData?.info;
 return(
     <div className="res-card">
         <img  className="res-logo" alt="logo_container" src={CDN_LINKS +
