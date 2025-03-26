@@ -2,9 +2,9 @@
   "name": "namste-react",
   "version": "1.0.0",
   "description": "namste react project",
-  "main": "App.js",
+ 
   "scripts": {
-    "start" : "parcel index.html"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/SKrishna891/NamasteReact#readme",
   "devDependencies": {
-    "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "parcel": "^2.14.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.30.0"
   }
 }
